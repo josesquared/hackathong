@@ -105,7 +105,6 @@ h1
 	top: -320px;
 	left: -236px;
 	zoom: 37%;
-	display: none;
 }
 
 .chopper {
@@ -126,6 +125,17 @@ h1
     position: relative;
     bottom: -19px;
     left: 3400px;
+}
+
+.statueofliberty .blurb{
+	background: url(../images/Bigstock-acquired.png) no-repeat 0 0;
+	background-size: contain;
+	width: 600px;
+	height: 392px;
+	position: absolute;
+	top: -100px;
+	left: 400px;
+	zoom: 37%;
 }
 
 
