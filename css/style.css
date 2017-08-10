@@ -107,6 +107,24 @@ h1
     background-size: contain;
     bottom: 57px;
 }
+.nyskyline2 {
+    z-index: 650;
+    background: red url(../images/nyskyline2.png) no-repeat 0 0;
+    width: 4000px;
+    height: 339px;
+    background-size: contain;
+    bottom: 73px;
+    margin-left: 1467px;
+}
+.sfskyline {
+    z-index: 650;
+    background: green url(../images/sfskyline.png) no-repeat 0 0;
+    width: 4000px;
+    height: 339px;
+    background-size: contain;
+    bottom: 73px;
+    margin-left: 2715px;
+}
 .ground {
     z-index: 850;
     width: 40000px;
