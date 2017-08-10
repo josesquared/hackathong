@@ -151,7 +151,6 @@
         </div>
 
         <div class="statueofliberty"></div>
-
         <div class="apple"></div>
 
        <!--  <div class="chopper"></div> -->
@@ -225,7 +224,11 @@
 
 		window.setInterval(function(){
 			$('.monkeyempire').toggleClass('wink');
-		},1500)
+		},1000);
+		
+		window.setInterval(function(){
+			$('.statueofliberty').toggleClass('flicker');
+		},500);
      
         var lastScrollTop = 0;
         $(document).scroll(function(event){

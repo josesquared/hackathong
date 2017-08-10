@@ -129,6 +129,11 @@ h1
 }
 
 
+.statueofliberty.flicker{
+    background: url(../images/statue-of-liberty-alt.png) no-repeat 0 0;
+	background-size: contain;
+}
+
 .apple {
     z-index: 950;
     background: url(../images/apple.png) no-repeat 0 0;
