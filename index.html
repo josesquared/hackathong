@@ -85,29 +85,17 @@
 
     .el6 /*flashstock*/
     {
-        width: 2000px;
+        width: 3000px;
     }
 
     .el7
     {
         width: 2000px;
     }
-
-
-@-webkit-keyframes backandforth1 {0%{top:-85px;} 90%{top:-83px;} 100%{top:-85px;}}
-@keyframes backandforth1 {0%{top:-10px;} 50%{top:-9px;} 100%{top:-10px;} }
-
-
-@-webkit-keyframes backandforth {0%{top:-85px;} 50%{top:-83px;} 100%{top:-85px;}}
-@keyframes backandforth {0%{top:-85px;} 50%{top:-83px;} 100%{top:-85px;} }
-
-@-webkit-keyframes backandforth2 {0%{top:-29px;} 50%{top:-27px;} 100%{top:-29px;}}
-@keyframes backandforth2 {0%{top:-29px;} 50%{top:-27px;} 100%{top:-29px;} }
-
-@-webkit-keyframes backandforth4 {0%{bottom:40px;} 50%{bottom:41px;} 100%{bottom:40px;}}
-@keyframes backandforth4 {0%{bottom:60px;} 50%{bottom:61px;} 100%{bottom:60px;} }
-
-
+    .el8
+    {
+        width: 2000px;
+    }
 
 	</style>
 </head>
@@ -135,6 +123,7 @@
         <a href="#" data-target="el5">Premium Beat</a>
         <a href="#" data-target="el6">Rex</a>
         <a href="#" data-target="el7">Flashstock</a>
+        <a href="#" data-target="el8">Mountain</a>
     </div>
     
     <div class="clouds scroll"></div>
@@ -146,6 +135,8 @@
     <div class="nyskyline2 scroll"></div>
     <div class="sfskyline scroll"></div>
     <div class="torontoskyline scroll"></div>
+    <div class="londonskyline scroll"></div>
+    <div class="torontoskyline2 scroll"></div>
     
     <div class="ground scroll"></div>
     <div class="front scroll">
@@ -159,6 +150,8 @@
         	<div class="blurb"></div>
         </div>
 
+        <div class="statueofliberty">
+
        <!--  <div class="chopper"></div> -->
 
 
@@ -171,6 +164,7 @@
             <div class="el el5"></div>
             <div class="el el6"></div>
             <div class="el el7"></div>
+            <div class="el el8"></div>
         </div>
     </div>
 
@@ -217,7 +211,7 @@
 
         $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
-            height: 20000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            height: 30000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 console.log(percent);
 
@@ -298,7 +292,7 @@
         $("html, body").easeScroll({
           //frameRate: 60,
           //animationTime: 100,
-          stepSize: 5,
+          stepSize: 20,
           // pulseAlgorithm: 1,
           // pulseScale: 8,
           // pulseNormalize: 1,

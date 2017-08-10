@@ -87,8 +87,9 @@ h1
     background-size: contain;
     height: 400px;
     position: relative;
-    bottom: 76px;
-    left: 7%;
+    /*bottom: 76px;*/
+    bottom: -400px;
+    left: 700px;
 }
 .monkeyempire.wink{
     background: url(../images/monkeyempire-wink.png) no-repeat 0 0;
@@ -105,6 +106,7 @@ h1
 	zoom: 37%;
 	display: none;
 }
+
 .chopper {
     z-index: 942;
     background: url(../images/chopper.png) no-repeat 0 0;
@@ -113,6 +115,16 @@ h1
     position: relative;
     bottom: 82px;
     left: 6%;
+}
+
+.statueofliberty {
+    z-index: 950;
+    background: url(../images/statue-of-liberty.png) no-repeat 0 0;
+    background-size: contain;
+    height: 500px;
+    position: relative;
+    bottom: 76px;
+    left: 3400px;
 }
 .nyskyline {
     z-index: 650;
@@ -148,6 +160,33 @@ h1
     background-size: contain;
     bottom: 73px;
     margin-left: 4077px;
+}
+.londonskyline {
+    z-index: 650;
+    background: purple url(../images/londonskyline.png) no-repeat 0 0;
+    width: 8000px;
+    height: 339px;
+    background-size: contain;
+    bottom: 73px;
+    margin-left: 5330px;
+}
+.torontoskyline2 {
+    z-index: 650;
+    background: yellow url(../images/torontoskyline.png) no-repeat 0 0;
+    width: 8000px;
+    height: 339px;
+    background-size: contain;
+    bottom: 73px;
+    margin-left: 6556px;
+}
+.mountain {
+    z-index: 650;
+    background: red url(../images/nyskyline.png) no-repeat 0 0;
+    width: 8000px;
+    height: 531px;
+    background-size: contain;
+    bottom: 57px;
+    margin-left: 8556px;
 }
 .ground {
     z-index: 850;
