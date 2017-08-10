@@ -82,6 +82,15 @@ h1
     left: 2.25%;
     display:none;
 }
+
+.blurb{
+  	background-size: contain;
+  	width: 600px;
+  	height: 392px;
+  	position: absolute;
+  	zoom: 37%;
+}
+
 .monkeyempire {
     z-index: 950;
     background: url(../images/monkeyempire.png) no-repeat 0 0;
@@ -98,13 +107,8 @@ h1
 }
 .monkeyempire .blurb{
 	background: url(../images/Shutterstock-founded.png) no-repeat 0 0;
-	background-size: contain;
-	width: 600px;
-	height: 392px;
-	position: absolute;
 	top: -320px;
 	left: -236px;
-	zoom: 37%;
 }
 
 .chopper {
@@ -129,13 +133,8 @@ h1
 
 .statueofliberty .blurb{
 	background: url(../images/Bigstock-acquired.png) no-repeat 0 0;
-	background-size: contain;
-	width: 600px;
-	height: 392px;
-	position: absolute;
 	top: -100px;
 	left: 400px;
-	zoom: 37%;
 }
 
 
@@ -153,6 +152,12 @@ h1
     bottom: 76px;
     left: 9400px;
 
+  }
+  
+  .apple .blurb{
+  	background: url(../images/Offset-launched.png) no-repeat 0 0;
+  	top: -400px;
+  	left: -400px;
   }
 .nyskyline {
     z-index: 650;
