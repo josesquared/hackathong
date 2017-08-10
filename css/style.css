@@ -69,7 +69,7 @@ h1
 .front
 {
   z-index: 650;
-  width: 20000px;
+  width: 40000px;
 }
 .start {
     z-index: 950;
@@ -102,7 +102,7 @@ h1
 .nyskyline {
     z-index: 650;
     background: url(../images/nyskyline.png) no-repeat 0 0;
-    width: 4000px;
+    width: 8000px;
     height: 531px;
     background-size: contain;
     bottom: 57px;
@@ -110,7 +110,7 @@ h1
 .nyskyline2 {
     z-index: 650;
     background: red url(../images/nyskyline2.png) no-repeat 0 0;
-    width: 4000px;
+    width: 8000px;
     height: 339px;
     background-size: contain;
     bottom: 73px;
@@ -119,15 +119,24 @@ h1
 .sfskyline {
     z-index: 650;
     background: green url(../images/sfskyline.png) no-repeat 0 0;
-    width: 4000px;
+    width: 8000px;
     height: 339px;
     background-size: contain;
     bottom: 73px;
     margin-left: 2715px;
 }
+.torontoskyline {
+    z-index: 650;
+    background: blue url(../images/torontoskyline.png) no-repeat 0 0;
+    width: 8000px;
+    height: 339px;
+    background-size: contain;
+    bottom: 73px;
+    margin-left: 4077px;
+}
 .ground {
     z-index: 850;
-    width: 40000px;
+    width: 8000px;
     bottom: 0;
     background: url(../images/ground.png) repeat-x 0 0;
     height: 100px;

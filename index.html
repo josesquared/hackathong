@@ -53,42 +53,42 @@
     .el
     {
         float: left;
-        height: 300px;
+        height: 2000px;
     }
     
-    .el1
+    .el1 /*bigstock*/
     {
         width: 1000px;
     }
     
-    .el2
+    .el2 /*offset*/
     {
-        width: 1000px;
+        width: 2000px;
     }
     
-    .el3
+    .el3 /*webdam*/
     {
-        width: 1000px;
+        width: 3000px;
     }
     
-    .el4
+    .el4 /*premium beat*/
     {
-        width: 1000px;
+        width: 2000px;
     }
 
-    .el5
+    .el5 /*rex*/
     {
-        width: 1000px;
+        width: 2000px;
     }
 
-    .el6
+    .el6 /*flashstock*/
     {
-        width: 1000px;
+        width: 2000px;
     }
 
     .el7
     {
-        width: 1900px;
+        width: 2000px;
     }
 
 
@@ -127,9 +127,9 @@
 
 <div class="menu">
         <a href="#" data-target="el1">Shutterstock</a>
-        <a href="#" data-target="el2">Webdam</a>
+        <a href="#" data-target="el2">Bigstock</a>
         <a href="#" data-target="el3">Offset</a>
-        <a href="#" data-target="el4">Bigstock</a>
+        <a href="#" data-target="el4">Webdam</a>
         <a href="#" data-target="el5">Premium Beat</a>
         <a href="#" data-target="el6">Rex</a>
         <a href="#" data-target="el7">Flashstock</a>
@@ -143,6 +143,7 @@
     <div class="nyskyline scroll"></div>
     <div class="nyskyline2 scroll"></div>
     <div class="sfskyline scroll"></div>
+    <div class="torontoskyline scroll"></div>
     
     <div class="ground scroll"></div>
     <div class="front scroll">
@@ -212,7 +213,7 @@
 
         $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
-            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            height: 20000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 console.log(percent);
 
@@ -283,7 +284,7 @@
         $("html, body").easeScroll({
           //frameRate: 60,
           //animationTime: 100,
-          stepSize: 10,
+          stepSize: 5,
           // pulseAlgorithm: 1,
           // pulseScale: 8,
           // pulseNormalize: 1,
