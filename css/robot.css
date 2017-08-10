@@ -20,7 +20,7 @@
         animation-iteration-count: infinite;
       position: absolute;
       z-index: 900;
-      background: url('../images/hackathon-images/RobotHead.png') no-repeat center bottom;
+      background: url('../images/robot/RobotHead.png') no-repeat center bottom;
       width: 225px;
       height: 141px;
       top: 0px;
@@ -59,7 +59,7 @@
       position: absolute;
       width: 225px;
       height: 152px;
-      background: url('../images/hackathon-images/RobotBody.png') no-repeat center center;
+      background: url('../images/robot/RobotBody.png') no-repeat center center;
       z-index: 900;
     }
     
@@ -72,7 +72,7 @@
     .front-arm{
       animation-name: front-arm;
       position: absolute;
-      background: url('../images/hackathon-images/RobotFrontArm.png') no-repeat center center;
+      background: url('../images/robot/RobotFrontArm.png') no-repeat center center;
       width: 99px;
       height: 210px;
       left: 50px;
@@ -108,7 +108,7 @@
         animation-iteration-count: infinite;
       position: absolute;
       top: 260px;
-      background: url('../images/hackathon-images/RobotLegs.png') no-repeat center top;
+      background: url('../images/robot/RobotLegs.png') no-repeat center top;
       width: 225px;
       height: 185px;
     }

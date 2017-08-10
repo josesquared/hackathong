@@ -90,6 +90,21 @@ h1
     bottom: 76px;
     left: 7%;
 }
+.monkeyempire.wink{
+    background: url(../images/monkeyempire-wink.png) no-repeat 0 0;
+	background-size: contain;
+}
+.monkeyempire .blurb{
+	background: url(../images/sstk_blurb.png) no-repeat 0 0;
+	background-size: contain;
+	width: 600px;
+	height: 392px;
+	position: absolute;
+	top: -320px;
+	left: -236px;
+	zoom: 37%;
+	display: none;
+}
 .chopper {
     z-index: 942;
     background: url(../images/chopper.png) no-repeat 0 0;

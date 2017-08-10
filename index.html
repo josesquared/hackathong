@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/sky.css">
   <link rel="stylesheet" type="text/css" href="css/robot.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bg-animations.css">
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -152,7 +154,9 @@
 
         <div class="start"></div>
 
-        <div class="monkeyempire"></div>
+        <div class="monkeyempire">
+        	<div class="blurb"></div>
+        </div>
 
        <!--  <div class="chopper"></div> -->
 
@@ -223,13 +227,23 @@
 
         $(".robot-sprite").addClass("animate-bot-shake");
 
-
+		window.setInterval(function(){
+			$('.monkeyempire').toggleClass('wink');
+		},1500)
      
         var lastScrollTop = 0;
         $(window).scroll(function(event){
 
 
             var st = $(this).scrollTop();
+			
+			console.log(st);
+			
+			if( st >= 100 && st <= 350 ){
+				$('.monkeyempire .blurb').show();
+			}else{
+				$('.monkeyempire .blurb').hide();
+			}
            if (st > lastScrollTop){
                // downscroll code
                console.log("downnnnn")
