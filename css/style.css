@@ -1,0 +1,117 @@
+html,
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+  background: #fff;
+
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: normal;
+  color: #2e6e80;
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+/*.clouds
+{
+  z-index: 1;
+  width: 3000px;
+  background: url(../images/clouds.png) repeat-x 0 0;
+    height: 500px;
+    background-size: contain;
+}*/
+/*.horizon {
+    z-index: 2;
+    width: 6000px;
+    background: url(../images/treesbg02.png) repeat-x 0 0;
+    height: 362px;
+}
+.trees {
+        z-index: 2;
+    width: 10000px;
+    background: url(../images/treesbg01.png) repeat-x 0 0;
+    height: 300px;
+}
+*/
+/*.middle
+{
+ z-index: 500;
+    width: 12000px;
+    background: url(../images/suburbhouses.png) repeat-x 0 0;
+    height: 350px;
+}*/
+
+.front
+{
+  z-index: 650;
+  width: 20000px;
+}
+.start {
+    z-index: 950;
+    background: url(../images/mission_frame.png) no-repeat 0 0;
+    background-size: contain;
+    height: 100px;
+    position: relative;
+    bottom: 103px;
+    left: 2.25%;
+    display:none;
+}
+.monkeyempire {
+    z-index: 950;
+    background: url(../images/monkeyempire.png) no-repeat 0 0;
+    background-size: contain;
+    height: 400px;
+    position: relative;
+    bottom: 76px;
+    left: 7%;
+}
+.chopper {
+    z-index: 942;
+    background: url(../images/chopper.png) no-repeat 0 0;
+    background-size: contain;
+    height: 78px;
+    position: relative;
+    bottom: 82px;
+    left: 6%;
+}
+.nyskyline {
+    z-index: 650;
+    background: url(../images/nyskyline.png) no-repeat 0 0;
+    width: 4000px;
+    height: 531px;
+    background-size: contain;
+    bottom: 57px;
+}
+.ground {
+    z-index: 850;
+    width: 40000px;
+    bottom: 0;
+    background: url(../images/ground.png) repeat-x 0 0;
+    height: 100px;
+    background-size: contain;
+}

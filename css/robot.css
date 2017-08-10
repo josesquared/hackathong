@@ -1,0 +1,113 @@
+.character {
+    position: fixed;
+    animation-name: character;
+    z-index: 1000;
+    zoom: 0.45;
+    -moz-transform: scale(0.5);
+    bottom: 658px;
+    left: 47%;
+}
+    .head{
+      animation-name: head;
+      animation-duration: 1s;
+        animation-iteration-count: infinite;
+      position: absolute;
+      z-index: 900;
+      background: url('../images/hackathon-images/RobotHead.png') no-repeat center bottom;
+      width: 225px;
+      height: 141px;
+      top: 0px;
+      left: 5px;
+    }
+    
+    @keyframes head {
+        0%   {top: 0px;}
+        50%  {top:-5px;}
+        100% {top:0px;}
+    }
+    
+    .middle{
+      animation-name: middle;
+      position: absolute;
+      top: 131px;
+      z-index: 1000;
+    }
+    
+    .middle-motion{
+      animation-name: middle-motion;
+      position: absolute;
+      top: 131px;
+      animation-duration: .5s;
+        animation-iteration-count: infinite;
+      position: absolute;
+      z-index: 1000;
+    }
+    
+    .body{
+      animation-name: body;
+      position: absolute;
+      top: 0px;
+      animation-duration: .7s;
+        animation-iteration-count: infinite;
+      position: absolute;
+      width: 225px;
+      height: 152px;
+      background: url('../images/hackathon-images/RobotBody.png') no-repeat center center;
+      z-index: 900;
+    }
+    
+    @keyframes middle-motion {
+        0%   {top: 131px;}
+        50%  {top:136px;}
+        100% {top:131px;}
+    }
+    
+    .front-arm{
+      animation-name: front-arm;
+      position: absolute;
+      background: url('../images/hackathon-images/RobotFrontArm.png') no-repeat center center;
+      width: 99px;
+      height: 210px;
+      left: 50px;
+      top: 20px;
+      z-index: 950;
+      animation-duration: .8s;
+        animation-iteration-count: infinite;
+      transform-origin: 63px 10px;
+    }
+    
+    @keyframes front-arm {
+        0%   {top:20px;}
+        50%  {top:23px;}
+        100% {top:20px;}
+    }
+    
+    .front-arm-motion{
+      animation-name: front-arm-motion;
+      animation-duration: .5s;
+        animation-iteration-count: infinite;
+      transform-origin: 63px 10px;
+    }
+    
+    @keyframes front-arm-motion {
+        0%   {transform: rotate(0deg);}
+        50%  {transform: rotate(-5deg);}
+        100% {transform: rotate(0deg);}
+    }
+    
+    .legs{
+      animation-name: legs;
+      animation-duration: 0s;
+        animation-iteration-count: infinite;
+      position: absolute;
+      top: 260px;
+      background: url('../images/hackathon-images/RobotLegs.png') no-repeat center top;
+      width: 225px;
+      height: 185px;
+    }
+    
+    @keyframes legs {
+        0%   {top: 260px;}
+        50%  {top:262px;}
+        100% {top:260px;}
+    }
