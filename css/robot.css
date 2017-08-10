@@ -5,8 +5,15 @@
     zoom: 0.45;
     -moz-transform: scale(0.5);
     bottom: 658px;
-    left: 47%;
+    left: 45%;
 }
+
+/*flip robot*/
+.flip-robot {
+    transform: scaleX(-1);
+	left: calc(45% + 225px);
+}
+
     .head{
       animation-name: head;
       animation-duration: 1s;
