@@ -88,7 +88,7 @@ h1
     height: 400px;
     position: relative;
     /*bottom: 76px;*/
-    bottom: -400px;
+    bottom: -518px;
     left: 700px;
 }
 .monkeyempire.wink{
@@ -123,9 +123,21 @@ h1
     background-size: contain;
     height: 500px;
     position: relative;
-    bottom: 76px;
+    bottom: -19px;
     left: 3400px;
 }
+
+
+.apple {
+    z-index: 950;
+    background: url(../images/apple.png) no-repeat 0 0;
+    background-size: contain;
+    height: 100px;
+    position: relative;
+    bottom: 76px;
+    left: 9400px;
+
+  }
 .nyskyline {
     z-index: 650;
     background: url(../images/nyskyline.png) no-repeat 0 0;
