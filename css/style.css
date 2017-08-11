@@ -119,6 +119,15 @@ Toronoyo maple leaf
     zoom: 26%;
 }
 
+.infobox {
+    background-size: contain;
+    width: 589px;
+    height: 495px;
+    position: absolute;
+    zoom: 59%;
+}
+
+
 .monkeyempire {
     z-index: 950;
     background: url(../images/monkeyempire.png) no-repeat 0 0;
@@ -141,6 +150,11 @@ Toronoyo maple leaf
   background: url(../images/shutterstock-flag.png) no-repeat 0 0;
   top: 493px;
   left: 610px;
+}
+.monkeyempire .infobox {
+  background: url(../images/info-box-01.png) no-repeat 0 0;
+  top: 40px;
+  left: -830px;
 }
 /*
 .chopper {
@@ -206,7 +220,7 @@ Toronoyo maple leaf
     height: 150px;
     position: relative;
     bottom: -750px;
-    left: 18202px;
+    left: 18410px;
 }
 .trolley .blurb{
   background: url(../images/webdam-acquired.png) no-repeat 0 0;
@@ -216,7 +230,7 @@ Toronoyo maple leaf
 .trolley .flag {
   background: url(../images/webdam-flag.png) no-repeat 0 0;
   top: 93px;
-  left: 1910px;
+  left: 1210px;
 }
 .bigben {
     z-index: 950;
