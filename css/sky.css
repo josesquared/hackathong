@@ -9,8 +9,8 @@
       0%   {background: #96b1d5;}
       25%  {background: #4e6e99;}
       50%  {background: #e19820;}
-      75%  {background: #be4e06;}
-      100% {background: #200c00;}
+      75%  {background: #4e6e99;}
+      100% {background: #748ca2;}
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
@@ -18,8 +18,8 @@
       0%   {background: #96b1d5;}
       25%  {background: #4e6e99;}
       50%  {background: #e19820;}
-      75%  {background: #be4e06;}
-      100% {background: #200c00;}
+      75%  {background: #4e6e99;}
+      100% {background: #748ca2;}
     }
 
 
