@@ -100,6 +100,15 @@ Toronoyo maple leaf
     left: 2.25%;
     display:none;
 }
+
+.blurb{
+  	background-size: contain;
+  	width: 600px;
+  	height: 392px;
+  	position: absolute;
+  	zoom: 37%;
+}
+
 .monkeyempire {
     z-index: 950;
     background: url(../images/monkeyempire.png) no-repeat 0 0;
@@ -115,14 +124,8 @@ Toronoyo maple leaf
 }
 .monkeyempire .blurb{
 	background: url(../images/Shutterstock-founded.png) no-repeat 0 0;
-	background-size: contain;
-	width: 600px;
-	height: 392px;
-	position: absolute;
 	top: -320px;
 	left: -236px;
-	zoom: 37%;
-	display: none;
 }
 /*
 .chopper {
@@ -145,6 +148,17 @@ Toronoyo maple leaf
     left: 3400px;
 }
 
+.statueofliberty .blurb{
+	background: url(../images/Bigstock-acquired.png) no-repeat 0 0;
+	top: -100px;
+	left: 400px;
+}
+
+
+.statueofliberty.flicker{
+    background: url(../images/statue-of-liberty-alt.png) no-repeat 0 0;
+	background-size: contain;
+}
 
 .apple {
     z-index: 950;
@@ -166,6 +180,13 @@ Toronoyo maple leaf
     bottom: 76px;
     left: 18202px;
 }
+
+  
+  .apple .blurb{
+  	background: url(../images/Offset-launched.png) no-repeat 0 0;
+  	top: -400px;
+  	left: -400px;
+  }
 .nyskyline {
     z-index: 650;
     background: url(../images/nyskyline.png) no-repeat 0 0;

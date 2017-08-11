@@ -150,9 +150,12 @@
         	<div class="blurb"></div>
         </div>
 
-        <div class="statueofliberty"></div>
-
-        <div class="apple"></div>
+        <div class="statueofliberty">
+        	<div class="blurb"></div>
+        </div>
+        <div class="apple">
+        	<div class="blurb"></div>
+        </div>
 
         <div class="goldengate"></div>
 
@@ -227,7 +230,11 @@
 
 		window.setInterval(function(){
 			$('.monkeyempire').toggleClass('wink');
-		},1500)
+		},1000);
+		
+		window.setInterval(function(){
+			$('.statueofliberty').toggleClass('flicker');
+		},500);
      
         var lastScrollTop = 0;
         $(document).scroll(function(event){
@@ -291,7 +298,7 @@
         $("html, body").easeScroll({
           //frameRate: 60,
           //animationTime: 100,
-          stepSize: 10,
+          stepSize: 20,
           // pulseAlgorithm: 1,
           // pulseScale: 8,
           // pulseNormalize: 1,
