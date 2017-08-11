@@ -91,14 +91,14 @@
     
     .front-arm-motion{
       animation-name: front-arm-motion;
-      animation-duration: .5s;
+      animation-duration: .45s;
         animation-iteration-count: infinite;
-      transform-origin: 63px 10px;
+      transform-origin: 70px 10px;
     }
     
     @keyframes front-arm-motion {
         0%   {transform: rotate(0deg);}
-        50%  {transform: rotate(-5deg);}
+        50%  {transform: rotate(-25deg);}
         100% {transform: rotate(0deg);}
     }
     
@@ -118,3 +118,25 @@
         50%  {top:262px;}
         100% {top:260px;}
     }
+	
+	.jump{
+		transform-origin: 30% 50%;
+		animation: jump .4s linear alternate;
+	}
+	
+	@keyframes jump{
+		0%   {transform: translate3d(0,0,0) scale3d(1,1,1);bottom: 658px;}
+		  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1); bottom: 1100px;}
+		  100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1); bottom: 658px;}
+	}
+	
+	.jump-flip{
+		transform-origin: 50% 50%;
+		animation: jump-flip .4s linear alternate;
+	}
+	
+	@keyframes jump-flip{
+		0%   {transform: translate3d(0,0,0) scale3d(-1,1,1);bottom: 658px;}
+		  40%  {transform: translate3d(0,30%,0) scale3d(-.7,1.5,1); bottom: 1100px;}
+		  100% {transform: translate3d(0,100%,0) scale3d(-1.5,.7,1); bottom: 658px;}
+	}
