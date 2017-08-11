@@ -158,13 +158,21 @@
         	<div class="blurb"></div>
         </div>
 
-        <div class="trolley"></div>
+        <div class="trolley">
+          <div class="blurb"></div>
+        </div>
 
-        <div class="bigben"></div>
+        <div class="bigben">
+          <div class="blurb"></div>
+        </div>
 
-        <div class="cntower"></div>
+        <div class="cntower">
+          <div class="blurb"></div>
+        </div>
 
-        <div class="mapleleaf"></div>
+        <div class="mapleleaf">
+          <div class="blurb"></div>
+        </div>
 
        <!--  <div class="chopper"></div> -->
 
@@ -330,6 +338,26 @@
             $('html, body').animate({scrollTop: final}, 500, 'easeInOutExpo');
 
         });
+
+
+
+
+        document.addEventListener("orientationchange", function(event){
+            switch(window.orientation) 
+            {  
+                case -90: case 90:
+                    /* Device is in landscape mode */
+                    console.log("landcsape")
+                    break; 
+                default:
+                    /* Device is in portrait mode */
+                    console.log("portrait")
+            }
+        });
+
+
+
+
 
     }(jQuery));
     </script>

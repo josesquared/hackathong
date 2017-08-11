@@ -1,3 +1,6 @@
+
+
+
 html,
 body
 {
@@ -170,6 +173,11 @@ Toronoyo maple leaf
     left: 9400px;
 
   }
+.apple .blurb{
+    background: url(../images/Offset-launched.png) no-repeat 0 0;
+    top: -400px;
+    left: -400px;
+  }
 
 .trolley {
     z-index: 950;
@@ -179,6 +187,11 @@ Toronoyo maple leaf
     position: relative;
     bottom: -750px;
     left: 18202px;
+}
+.trolley .blurb{
+  background: url(../images/webdam-acquired.png) no-repeat 0 0;
+  top: -414px;
+  left: 531px;
 }
 
 .bigben {
@@ -190,6 +203,12 @@ Toronoyo maple leaf
     bottom: -432px;
     left: 24402px;
 }
+.bigben .blurb{
+  background: url(../images/rex-acquired.png) no-repeat 0 0;
+  top: -111px;
+  left: 231px;
+}
+
   
   .cntower {
     z-index: 950;
@@ -201,6 +220,11 @@ Toronoyo maple leaf
     left: 30703px;
 }
 
+.cntower .blurb{
+  background: url(../images/PremiumBeat-acquired.png) no-repeat 0 0;
+  top: -95px;
+  left: -631px;
+}
 .mapleleaf {
     z-index: 950;
     background: url(../images/mapleleaf.png) no-repeat 0 0;
@@ -210,12 +234,12 @@ Toronoyo maple leaf
     bottom: 76px;
     left: 39415px;
 }
+  .mapleleaf .blurb{
+  background: url(../images/PremiumBeat-acquired.png) no-repeat 0 0;
+  top: -95px;
+  left: -631px;
+}
   
-  .apple .blurb{
-  	background: url(../images/Offset-launched.png) no-repeat 0 0;
-  	top: -400px;
-  	left: -400px;
-  }
 .nyskyline {
     z-index: 650;
     background: url(../images/nyskyline.png) no-repeat 0 0;
