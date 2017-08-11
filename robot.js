@@ -14,7 +14,12 @@ $(document).ready(function(){
 			case 37: //left
 				break;
 			case 32: //space bar
-				$('.body').css('animation-duration', '.2s');
+				e.preventDefault();
+				var className = ( $('.character').hasClass('flip-robot') ) ? 'jump-flip' : 'jump';
+				$('.character').addClass(className);
+				setTimeout(function(){
+					$('.character').removeClass(className);
+				},500);
 				break;
 		}
 	});
