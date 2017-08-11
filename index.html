@@ -24,6 +24,12 @@
             -webkit-transition: all 600ms cubic-bezier(1, 0, 0, 1);
   transition:all 600ms cubic-bezier(1, 0, 0, 1);
         }*/
+.explore {
+    font-size: 24px;
+    float: left;
+    margin-right: 18px;
+    display:none;
+}
 .menu {
     position: fixed;
     width: auto;
@@ -36,12 +42,19 @@
     bottom: 22px;
 }
     
-    .menu a
+    .menu a, .menu a:link, .menu a:visited
     {
         display: inline-block;
         margin-right: 20px;
         color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 2px 0px 2px 14px;
+        border-left: 1px solid #fff;
     }
+    .menu a:hover {
+    color: #cecdcd;
+}
     
     .elements
     {
@@ -117,6 +130,7 @@
 
 
 <div class="menu">
+        <div class="explore">Explore:</div>
         <a href="#" data-target="el1">Shutterstock</a>
         <a href="#" data-target="el2">Bigstock</a>
         <a href="#" data-target="el3">Offset</a>
