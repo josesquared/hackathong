@@ -55,6 +55,10 @@
     .menu a:hover {
     color: #cecdcd;
 }
+
+.menu a.first{
+	border:none;
+}
     
     .elements
     {
@@ -131,7 +135,7 @@
 
 <div class="menu">
         <div class="explore">Explore:</div>
-        <a href="#" data-target="el1">Shutterstock</a>
+        <a href="#" class="first" data-target="el1">Shutterstock</a>
         <a href="#" data-target="el2">Bigstock</a>
         <a href="#" data-target="el3">Offset</a>
         <a href="#" data-target="el4">Webdam</a>
@@ -264,7 +268,6 @@
             {
             height: 30000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                console.log(percent);
 
             }
         });
@@ -285,13 +288,9 @@
 
 
             var st = $(this).scrollTop();
-			
-			console.log('monkey: ' + $('.monkeyempire').offset().left - $('.character').offset().left);
-			console.log('robot: ' + $('.character').offset().left);
 				
            if (st > lastScrollTop){
                // downscroll code
-               console.log("downnnnn")
 
                $(".character").removeClass("flip-robot");
 
@@ -302,7 +301,6 @@
                
            } else {
               // upscroll code
-              console.log("upppppp")
               $(".character").addClass("flip-robot");
 
               $('.body').css('animation-duration', '.3s');
@@ -332,9 +330,6 @@
               $('.legs').css('animation-duration', '0s');
               $('.front-arm').removeClass('front-arm-motion');
               $('.middle').removeClass('middle-motion');
-
-
-                console.log("Haven't scrolled in 250ms!");
             }, 100));
         });
 
@@ -376,11 +371,9 @@
             {  
                 case -90: case 90:
                     /* Device is in landscape mode */
-                    console.log("landcsape")
                     break; 
                 default:
                     /* Device is in portrait mode */
-                    console.log("portrait")
             }
         });
 
