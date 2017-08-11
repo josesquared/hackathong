@@ -67,6 +67,24 @@ h1
     height: 350px;
 }*/
 
+/*
+offest
+CN toroonoto
+
+webdam 
+sf
+
+Rex
+london - big ben
+
+Premium beat
+Toronoyo maple leaf
+*/
+
+
+
+
+
 .front
 {
   z-index: 650;
@@ -88,8 +106,7 @@ h1
     background-size: contain;
     height: 400px;
     position: relative;
-    /*bottom: 76px;*/
-    bottom: -518px;
+    bottom: -818px;
     left: 700px;
 }
 .monkeyempire.wink{
@@ -107,7 +124,7 @@ h1
 	zoom: 37%;
 	display: none;
 }
-
+/*
 .chopper {
     z-index: 942;
     background: url(../images/chopper.png) no-repeat 0 0;
@@ -117,14 +134,14 @@ h1
     bottom: 82px;
     left: 6%;
 }
-
+*/
 .statueofliberty {
     z-index: 950;
     background: url(../images/statue-of-liberty.png) no-repeat 0 0;
     background-size: contain;
     height: 500px;
     position: relative;
-    bottom: -19px;
+    bottom: -319px;
     left: 3400px;
 }
 
@@ -135,10 +152,20 @@ h1
     background-size: contain;
     height: 100px;
     position: relative;
-    bottom: 76px;
+    bottom: -221px;
     left: 9400px;
 
   }
+
+.goldengate {
+    z-index: 950;
+    background: url(../images/goldengate.png) no-repeat 0 0;
+    background-size: contain;
+    height: 300px;
+    position: relative;
+    bottom: 76px;
+    left: 18202px;
+}
 .nyskyline {
     z-index: 650;
     background: url(../images/nyskyline.png) no-repeat 0 0;
