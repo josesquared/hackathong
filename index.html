@@ -20,10 +20,27 @@
             background: #d3eef5;
             
         }
-       /* html {
-            -webkit-transition: all 600ms cubic-bezier(1, 0, 0, 1);
-  transition:all 600ms cubic-bezier(1, 0, 0, 1);
-        }*/
+      .intro {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    height: 100%;
+    z-index: 1001;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 13%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+       .intro img {
+    margin: auto;
+    padding: 10px;
+    zoom: 50%;
+    position: relative;
+        left: -46px;
+}
 .explore {
     font-size: 24px;
     float: left;
@@ -118,6 +135,15 @@
 	</style>
 </head>
 <body>
+<a href="javascript:;" class="intro">
+<img src="images/mission_frame.png" />
+<ul>
+  <li>(Click here)</li>
+  <!-- <li>Spacebar to jump</li> -->
+</ul>
+</a>
+
+
 <div id="clouds">
     <div class="cloud x1"></div>
     <div class="cloud x2"></div>
@@ -140,7 +166,7 @@
         <a href="#" data-target="el3">Offset</a>
         <a href="#" data-target="el4">Webdam</a>
         <a href="#" data-target="el5">Rex</a>
-        <a href="#" data-target="el6">Premium Beat</a>
+        <a href="#" data-target="el6">PremiumBeat</a>
         <a href="#" data-target="el7">Flashstock</a>
         <!-- <a href="#" data-target="el8">Mountain</a> -->
     </div>
@@ -210,7 +236,7 @@
        <!--  <div class="chopper"></div> -->
 
 
-        <img src="images/front.png" alt="" />
+        <!-- <img src="images/front.png" alt="" /> -->
         <div class="elements">
             <div class="el el1"></div>
             <div class="el el2"></div>
@@ -223,7 +249,7 @@
         </div>
     </div>
 
-
+<!-- <div class="characterhitbox"></div> -->
 <div class="character">
     <div class="head">
     </div>
@@ -364,6 +390,19 @@
         });
 
 
+        $('.intro').on('click', function(e) {
+            $('html, body').animate({scrollTop: 0}, 0, 'easeInOutExpo');
+            
+
+            $('.intro').fadeOut( "slow", function() {
+            // Animation complete.
+            $(".character").removeClass("flip-robot");
+
+
+            });
+        });
+
+
 
 
         document.addEventListener("orientationchange", function(event){
@@ -373,6 +412,7 @@
                     /* Device is in landscape mode */
                     break; 
                 default:
+                alert("Best used in landscape mode! This is a prototype.")
                     /* Device is in portrait mode */
             }
         });

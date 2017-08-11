@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+
+
+	$('.characterhitbox').on('click', function(e) {
+          $('.body').css('animation-duration', '.2s');
+          console.log("1")
+         });
+
+
+	
 	$(document).keydown(function(e) {
 		switch(e.keyCode){
 			case 38: //up
@@ -24,6 +34,8 @@ $(document).ready(function(){
 				break;
 		}
 	});
+
+
 	
 	$(document).keyup(function(e){
 		$('.head').css('animation-duration', '1s');

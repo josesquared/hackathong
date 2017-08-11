@@ -7,6 +7,29 @@
     bottom: 658px;
     left: 45%;
 }
+.characterhitbox {
+    position: fixed;
+    z-index: 2007;
+    bottom: 97px;
+    left: 45%;
+    
+    height: 203px;
+    width: 99px;
+    /*cursor:pointer;
+    background: red;*/
+}
+/*.character {
+    position: fixed;
+    animation-name: character;
+    z-index: 1000;
+    zoom: 0.45;
+    -moz-transform: scale(0.5);
+    bottom: 142px;
+    left: 45%;
+    display: block;
+    height: 508px;
+    width: 223px;
+}*/
 
 /*flip robot*/
 .flip-robot {
