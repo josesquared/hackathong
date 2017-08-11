@@ -113,9 +113,9 @@ Toronoyo maple leaf
     z-index: 950;
     background: url(../images/monkeyempire.png) no-repeat 0 0;
     background-size: contain;
-    height: 400px;
+    height: 256px;
     position: relative;
-    bottom: -818px;
+    bottom: -1327px;
     left: 700px;
 }
 .monkeyempire.wink{
@@ -142,9 +142,9 @@ Toronoyo maple leaf
     z-index: 950;
     background: url(../images/statue-of-liberty.png) no-repeat 0 0;
     background-size: contain;
-    height: 500px;
+    height: 317px;
     position: relative;
-    bottom: -319px;
+    bottom: -1005px;
     left: 3400px;
 }
 
@@ -166,21 +166,50 @@ Toronoyo maple leaf
     background-size: contain;
     height: 100px;
     position: relative;
-    bottom: -221px;
+    bottom: -902px;
     left: 9400px;
 
   }
 
-.goldengate {
+.trolley {
     z-index: 950;
-    background: url(../images/goldengate.png) no-repeat 0 0;
+    background: url(../images/trolley.png) no-repeat 0 0;
     background-size: contain;
-    height: 300px;
+    height: 150px;
     position: relative;
-    bottom: 76px;
+    bottom: -750px;
     left: 18202px;
 }
 
+.bigben {
+    z-index: 950;
+    background: url(../images/bigben.png) no-repeat 0 0;
+    background-size: contain;
+    height: 320px;
+    position: relative;
+    bottom: -432px;
+    left: 24402px;
+}
+  
+  .cntower {
+    z-index: 950;
+    background: url(../images/cntower.png) no-repeat 0 0;
+    background-size: contain;
+    height: 320px;
+    position: relative;
+    bottom: -115px;
+    left: 30703px;
+}
+
+.mapleleaf {
+    z-index: 950;
+    background: url(../images/mapleleaf.png) no-repeat 0 0;
+    background-size: contain;
+    height: 194px;
+    position: relative;
+    bottom: 76px;
+    left: 39415px;
+}
   
   .apple .blurb{
   	background: url(../images/Offset-launched.png) no-repeat 0 0;
@@ -197,7 +226,7 @@ Toronoyo maple leaf
 }
 .nyskyline2 {
     z-index: 650;
-    background: red url(../images/nyskyline2.png) no-repeat 0 0;
+    background: url(../images/nyskyline2.png) no-repeat 0 0;
     width: 8000px;
     height: 339px;
     background-size: contain;
@@ -206,34 +235,36 @@ Toronoyo maple leaf
 }
 .sfskyline {
     z-index: 650;
-    background: green url(../images/sfskyline.png) no-repeat 0 0;
+    background: url(../images/sfskyline.png) no-repeat 0 0;
     width: 8000px;
     height: 339px;
     background-size: contain;
     bottom: 73px;
     margin-left: 2715px;
 }
-.torontoskyline {
+.londonskyline {
     z-index: 650;
-    background: blue url(../images/torontoskyline.png) no-repeat 0 0;
+    background: url(../images/londonskyline.png) no-repeat 0 0;
     width: 8000px;
     height: 339px;
     background-size: contain;
     bottom: 73px;
+    
     margin-left: 4077px;
 }
-.londonskyline {
+.torontoskyline {
     z-index: 650;
-    background: purple url(../images/londonskyline.png) no-repeat 0 0;
+    background: url(../images/torontoskyline.png) no-repeat 0 0;
     width: 8000px;
     height: 339px;
     background-size: contain;
     bottom: 73px;
     margin-left: 5330px;
 }
+
 .torontoskyline2 {
     z-index: 650;
-    background: yellow url(../images/torontoskyline.png) no-repeat 0 0;
+    background: url(../images/torontoskyline.png) no-repeat 0 0;
     width: 8000px;
     height: 339px;
     background-size: contain;
@@ -242,7 +273,7 @@ Toronoyo maple leaf
 }
 .mountain {
     z-index: 650;
-    background: red url(../images/nyskyline.png) no-repeat 0 0;
+    background: url(../images/nyskyline.png) no-repeat 0 0;
     width: 8000px;
     height: 531px;
     background-size: contain;
